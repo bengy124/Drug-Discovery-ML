@@ -16,5 +16,12 @@ For this example results from the Mann-Whitney U Test showed that the pIC50 were
 ### Dataset Prep and Model Building
 To prepare the data for running a regression model it will use PeDEL to calculate the molecular descriptors of each molecule. PaDEL removes salts and small organic acids to purify the chemical structures and outputs the changes in canonical smile notation and aslo assigns a PubChem finger print to each moleclue. The PebChem fingerprint encodes molecular fragments information with 881 binary digits, this helps to describe the unique structural features of the molecules and allows the machine learning model to learn from the unique molecular properties of each fingerprint to create a model that can distinguish between compounds that are active and inactive. We want to see which fingerprints are essential for creating a potent drug with minimal side effects. Lastly, in order the create a regression model using Random Forrest Regressor it will set the PubChem fingerprints as the X input and the pIC50 values as the Y output. Then remove all the low variance values and split the data in a 80/20 ratio. Once running Random Forrest Regressor it will produce an r2 value and will show a scatterplot of the experimental vs predicted pIC50 values to visualize the results.
 
-**Disclaimer** 
-This code is not my own original work, all credits go to the “Data Professor”(https://www.youtube.com/@DataProfessor) youtube channel and his video tutorials for this project. My intentions for this project was to purely get practice and begin learning Python for bioinformatics and data science applications. 
+#### *Disclaimer - This code is not my own original work, all credits go to the [Data Professor](https://www.youtube.com/@DataProfessor) YouTube channel and his video tutorials for this project. My intentions for this project was to purely get practice and begin learning Python for bioinformatics and data science applications.* 
+
+#### Sources
+- [Data Professor](https://www.youtube.com/watch?v=plVLRashaA8&list=PLtqF5YXg7GLlQJUv9XJ3RWdd5VYGwBHrP)
+- https://www.cancer.org/cancer/breast-cancer/risk-and-prevention/aromatase-inhibitors-for-lowering-breast-cancer-risk.html
+- https://dev.drugbank.com/guides/terms/lipinski-s-rule-of-five
+- https://codeocean.com/explore/capsules?query=tag:data-curation
+- https://github.com/chaninlab/estrogen-receptor-alpha-qsar/blob/master/02_ER_alpha_RO5.ipynb
+- https://machinelearningmastery.com/nonparametric-statistical-significance-tests-in-python/
