@@ -20,6 +20,7 @@ To prepare the data for running a regression model it, will use PaDEL to calcula
 
 #### Sources
 - [Data Professor YouTube](https://www.youtube.com/watch?v=plVLRashaA8&list=PLtqF5YXg7GLlQJUv9XJ3RWdd5VYGwBHrP)
+- https://pubs.rsc.org/en/content/articlelanding/2018/RA/C7RA10979B
 - https://www.cancer.org/cancer/breast-cancer/risk-and-prevention/aromatase-inhibitors-for-lowering-breast-cancer-risk.html
 - https://dev.drugbank.com/guides/terms/lipinski-s-rule-of-five
 - https://codeocean.com/explore/capsules?query=tag:data-curation
