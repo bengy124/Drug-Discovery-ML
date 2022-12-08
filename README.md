@@ -19,7 +19,7 @@ To prepare the data for running a regression model it will use PeDEL to calculat
 #### *Disclaimer - This code is not my own original work, all credits go to the [Data Professor](https://www.youtube.com/@DataProfessor) YouTube channel and his video tutorials for this project. My intentions for this project was to purely get practice and begin learning Python for bioinformatics and data science applications.* 
 
 #### Sources
-- [Data Professor](https://www.youtube.com/watch?v=plVLRashaA8&list=PLtqF5YXg7GLlQJUv9XJ3RWdd5VYGwBHrP)
+- [Data Professor YouTube](https://www.youtube.com/watch?v=plVLRashaA8&list=PLtqF5YXg7GLlQJUv9XJ3RWdd5VYGwBHrP)
 - https://www.cancer.org/cancer/breast-cancer/risk-and-prevention/aromatase-inhibitors-for-lowering-breast-cancer-risk.html
 - https://dev.drugbank.com/guides/terms/lipinski-s-rule-of-five
 - https://codeocean.com/explore/capsules?query=tag:data-curation
